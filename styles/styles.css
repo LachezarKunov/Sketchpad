@@ -1,0 +1,29 @@
+body{
+  margin:0;
+}
+
+.container{
+  margin:auto;
+  border:1px solid black;
+  height:550px;
+  width:550px;
+  margin-top:150px;
+  margin-bottom:50px;
+
+  display:grid;
+  grid-template: repeat(16, 1fr)/repeat(16,1fr);
+}
+
+.container div{
+  border: 1px solid black;
+}
+
+button{
+ background-color: rgb(39, 158, 197);
+ color:white;
+ border:none;
+ width:100px;
+ height:35px;
+ border-radius:10px;
+ cursor:pointer;
+}
